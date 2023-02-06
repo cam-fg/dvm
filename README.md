@@ -1,3 +1,7 @@
+<p align="middle" float="left">
+  <img src="resources/fh-kiel.png" width="25%" />
+</p>
+
 # Landesweites Digitales Besuchermanagement Tourismus in Schleswig-Holstein (LAB-TOUR SH)
 
 ## Datemodelle
@@ -6,7 +10,7 @@ Im Rahmen des Projektes LAB-TOUR-SH wurden verschiedene Datemodelle entwickelt, 
 
 |Datenmodell|Beschreibung|
 |---|---|
-|[Occupancy](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/Occupancy)||
-|[OccupancySeries](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/OccupancySeries)||
-|[ReqRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/ReqRecommendation)||
-|[TouristRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/TouristRecommendation)||
+|[Occupancy](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/Occupancy)||
+|[OccupancySeries](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/OccupancySeries)||
+|[ReqRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/ReqRecommendation)||
+|[TouristRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/TouristRecommendation)||
