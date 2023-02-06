@@ -8,10 +8,11 @@
 <!-- Header Area end --->
 
 # Landesweites Digitales Besuchermanagement Tourismus in Schleswig-Holstein (LAB-TOUR SH)
+(*engl.: State-wide Digital Visitor Management Tourism in Schleswig-Holstein*)
 
-## Datemodelle
+## Data Models
 
-Im Rahmen des Projektes LAB-TOUR-SH wurden verschiedene Datemodelle entwickelt, die in der folgenden Tabelle aufgelistet sind. Die Datemodelle sind dabei den Bedarfen angepasst, die in diesem Projekt identifiziert wurden und genügen den Kompatibilitätsanforderungen der verschiedenen Systeme, die im Projekt LAB-TOUR-SH eingesetzt werden. Dies betrifft vor allem die FIWARE Plattform, die die Basis für kontextbezogene Informationen ist.
+Within the LAB-TOUR-SH project, different data models were developed, which are listed in the following table. The data models are adapted to the needs identified in this project and meet the compatibility requirements of the different systems used in the LAB-TOUR-SH project. This mainly concerns the FIWARE platform, which is the basis for contextual information.
 
 |Data Model|Description|
 |---|---|
