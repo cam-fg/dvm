@@ -1,16 +1,11 @@
 <!-- Header Area begin --->
 <p align="center">
-  <img src="resources/addix.svg" width="20%" />
-  <img src="resources/lhind.png" width="20%" />
-  <img src="resources/fh-kiel.png" width="20%" />
-  <img src="resources/fh-westkueste.svg" width="20%" />
+  <img align="center" src="resources/addix.svg" width="20%" />
+  <img align="center" src="resources/lhind.png" width="20%" />
+  <img align="center" src="resources/fh-kiel.png" width="20%" />
+  <img align="center" src="resources/fh-westkueste.svg" width="20%" />
 </p>
 <!-- Header Area end --->
-
-![ADDIX-logo](resources/addix.svg){: style="width:83px"} 
-![LHIND-logo](resources/lhind.png){: style="width:83px"} 
-![FH-Kiel-logo](resources/fh-kiel.png){: style="width:83px"} 
-![FH-Westküste-logo](resources/fh-westkueste.svg){: style="width:83px"} 
 
 # Landesweites Digitales Besuchermanagement Tourismus in Schleswig-Holstein (LAB-TOUR SH)
 
