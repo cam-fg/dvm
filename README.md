@@ -17,6 +17,6 @@ Within the LAB-TOUR-SH project, different data models were developed, which are 
 |Data Model|Description|
 |---|---|
 |[Occupancy](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/Occupancy)|An atomic occupancy value. Can be used to describe the occupancy of a single point in time. This occupancy could be taken from a sensor or predicted by a model.|
-|[OccupancySeries](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/OccupancySeries)||
-|[ReqRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/ReqRecommendation)||
-|[TouristRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/TouristRecommendation)||
+|[OccupancySeries](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/OccupancySeries)|A series of occupancy values for a given time period. Could be used to describe the flow or absolute occupancy of a certain entity (e.g. a parking lot, beach).|
+|[ReqRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/ReqRecommendation)|A request for a recommendation for a given location. Note: This is just the request, not the recommendation itself. The recommendation is provided by the recommendation service.|
+|[TouristRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/TouristRecommendation)|A recommendation that has been generated for a given location. The recommendation, which is based on a point of interest, includes a list of recommended points of interest and a list of recommended parking lots.|

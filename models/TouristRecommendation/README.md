@@ -9,6 +9,8 @@
 
 # TouristRecommendation
 
+A recommendation that has been generated for a given location. The recommendation, which is based on a point of interest, includes a list of recommended points of interest and a list of recommended parking lots.
+
 |Property|Expected Type|Description|Cardinality|
 |---|---|---|---|
 |id||||

@@ -9,6 +9,8 @@
 
 # ReqRecommendation
 
+A request for a recommendation for a given location. Note: This is just the request, not the recommendation itself. The recommendation is provided by the recommendation service.
+
 |Property|Expected Type|Description|Cardinality|
 |---|---|---|---|
 |id||||

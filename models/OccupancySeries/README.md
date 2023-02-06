@@ -9,6 +9,8 @@
 
 # OccupancySeries
 
+A series of occupancy values for a given time period. Could be used to describe the flow or absolute occupancy of a certain entity (e.g. a parking lot, beach).
+
 |Property|Expected Type|Description|Cardinality|
 |---|---|---|---|
 |id||||
