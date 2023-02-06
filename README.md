@@ -13,9 +13,9 @@
 
 Im Rahmen des Projektes LAB-TOUR-SH wurden verschiedene Datemodelle entwickelt, die in der folgenden Tabelle aufgelistet sind. Die Datemodelle sind dabei den Bedarfen angepasst, die in diesem Projekt identifiziert wurden und genügen den Kompatibilitätsanforderungen der verschiedenen Systeme, die im Projekt LAB-TOUR-SH eingesetzt werden. Dies betrifft vor allem die FIWARE Plattform, die die Basis für kontextbezogene Informationen ist.
 
-|Datenmodell|Beschreibung|
+|Data Model|Description|
 |---|---|
-|[Occupancy](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/Occupancy)||
+|[Occupancy](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/Occupancy)|An atomic occupancy value. Can be used to describe the occupancy of a single point in time. This occupancy could be taken from a sensor or predicted by a model.|
 |[OccupancySeries](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/OccupancySeries)||
 |[ReqRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/ReqRecommendation)||
 |[TouristRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/TouristRecommendation)||
