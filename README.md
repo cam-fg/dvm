@@ -6,7 +6,7 @@ Im Rahmen des Projektes LAB-TOUR-SH wurden verschiedene Datemodelle entwickelt, 
 
 |Datenmodell|Beschreibung|
 |---|---|
-|[Occupancy]()|||
-|OccupancySeries||
-|ReqRecommendation||
-|TouristRecommendation||
+|[Occupancy](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/Occupancy)||
+|[OccupancySeries](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/OccupancySeries)||
+|[ReqRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/ReqRecommendation)||
+|[TouristRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/TouristRecommendation)||
