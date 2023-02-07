@@ -20,3 +20,14 @@ Within the LAB-TOUR-SH project, different data models were developed, which are 
 |[OccupancySeries](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/OccupancySeries)|A series of occupancy values for a given time period. Could be used to describe the flow or absolute occupancy of a certain entity (e.g. a parking lot, beach).|
 |[TriggerRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/TriggerRecommendation)|Data model for triggering the creation of a recommendation. This is a request to the recommendation engine to create a recommendation for a given context.|
 |[TouristRecommendation](https://github.com/cam-fg/lab-tour-sh-doc/tree/main/models/TouristRecommendation)|A recommendation that has been generated for a given location. The recommendation, which is based on a point of interest, includes a list of recommended points of interest and a list of recommended parking lots.|
+
+## Smart Data Models
+
+The models are based on the FIWARE Smart Data Models ([SmartDataModels.org](https://smartdatamodels.org/)) and hence there are some naming conventions that are used in the models. The following table shows the naming conventions used in the models.
+
+|Name|Description|
+|---|---|
+|id|The unique identifier of the entity. (In Schema.org: [identifier](https://schema.org/identifier))|
+|type|The type of the NGSI entity.|
+|ref*|The reference to another entity.|
+|seeAlso|URI to additional resources.|
