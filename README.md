@@ -27,7 +27,7 @@ The models are based on the FIWARE Smart Data Models ([SmartDataModels.org](http
 
 |Name|Description|
 |---|---|
-|id|The unique identifier of the entity. (In Schema.org: <a href="https://schema.org/identifier" target="_blank">identifier</a>)|
+|id|The unique identifier of the entity. (In Schema.org: [identifier](https://schema.org/identifier))|
 |type|The type of the NGSI entity.|
 |ref*|The reference to another entity.|
 |seeAlso|URI to additional resources.|
