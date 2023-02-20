@@ -24,7 +24,7 @@ A series of occupancy values for a given time period. Could be used to describe 
 |owner|[Text](https://schema.org/Text)|Identifier of the owner of this entity.|0..N|
 |seeAlso|[Text](https://schema.org/Text)|List of additional resources about the entity.|0..N|
 |location|[GeoCoordinates](https://schema.org/GeoCoordinates)|The geo coordinates of this entity.|1|
-|address|[PostalAddress](https://schema.org/address)|Physical address of the entity.|0..1|
+|address|[PostalAddress](https://schema.org/PostalAddress)|Physical address of the entity.|0..1|
 |areaServed|[Text](https://schema.org/Text)|The geographic area where a service or offered item is provided.|0..1|
 |index|[DateTime](https://schema.org/DateTime)|All date times that are linked to the values of the series.|0..N|
 |refBasis|[Text](https://schema.org/Text)|Identifier this occupancy is referring to.|0..1|

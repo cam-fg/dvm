@@ -24,7 +24,7 @@ A recommendation that has been generated for a given location. The recommendatio
 |owner|[Text](https://schema.org/Text)|Identifier of the owner of this entity.|0..N|
 |seeAlso|[Text](https://schema.org/Text)|List of additional resources about the entity.|0..N|
 |location|[GeoCoordinates](https://schema.org/GeoCoordinates)|The geo coordinates of this entity.|1|
-|address|[PostalAddress](https://schema.org/address)|Physical address of the entity.|0..1|
+|address|[PostalAddress](https://schema.org/PostalAddress)|Physical address of the entity.|0..1|
 |areaServed|[Text](https://schema.org/Text)|The geographic area where a service or offered item is provided.|0..1|
 |refBasis|[Text](https://schema.org/Text)|Identifier this recommendation is based on.|0..1|
 |refRecommendedParking|[Text](https://schema.org/Text)|Identifiers of the recommended parking spaces. Order of importance descending.|0..N|
