@@ -14,18 +14,18 @@ Data model for triggering the creation of a recommendation. This is a request to
 |Property|Expected Type|Description|Cardinality|
 |---|---|---|---|
 |id|[Text](https://schema.org/Text)|**From Vocabulary**: The identifier property represents any kind of identifier for any kind of [Thing](https://schema.org/Thing), such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](http://schema.org/docs/datamodel.html#identifierBg) for more details.|1|
-|dateCreated|[DateTime](https://schema.org/DateTime)|The date on which the Entity was created. This will usually be allocated by the storage platform.|0..1|
-|dateModified|[DateTime](https://schema.org/DateTime)|The date on which the Entity was most recently modified. This will usually be allocated by the storage platform.|0..1|
+|[dateCreated](https://schema.org/dateCreated)|[DateTime](https://schema.org/DateTime)|The date on which the Entity was created. This will usually be allocated by the storage platform.|0..1|
+|[dateModified](https://schema.org/dateModified)|[DateTime](https://schema.org/DateTime)|The date on which the Entity was most recently modified. This will usually be allocated by the storage platform.|0..1|
 |source|[URL](https://schema.org/URL)|URL of the source of this entity.|0..1|
-|name|[Text](https://schema.org/Text)|The name of the entity.|0..1|
-|alternateName|[Text](https://schema.org/Text)|If available, an alternative name for the entity.|0..1|
-|description|[Text](https://schema.org/Text)|A description of the entity.|0..1|
+|[name](https://schema.org/name)|[Text](https://schema.org/Text)|The name of the entity.|0..1|
+|[alternateName](https://schema.org/alternateName)|[Text](https://schema.org/Text)|If available, an alternative name for the entity.|0..1|
+|[description](https://schema.org/description)|[Text](https://schema.org/Text)|A description of the entity.|0..1|
 |dataProvider|[Text](https://schema.org/Text)|Name of the company, person or organisation providing this entity.|0..1|
 |owner|[Text](https://schema.org/Text)|Identifier of the owner of this entity.|0..N|
 |seeAlso|[Text](https://schema.org/Text)|List of additional resources about the entity.|0..N|
-|location|[GeoCoordinates](https://schema.org/GeoCoordinates)|The geo coordinates of this entity.|1|
-|address|[PostalAddress](https://schema.org/PostalAddress)|Physical address of the entity.|0..1|
-|areaServed|[Text](https://schema.org/Text)|The geographic area where a service or offered item is provided.|0..1|
+|[location](https://schema.org/location)|[GeoCoordinates](https://schema.org/GeoCoordinates)|The geo coordinates of this entity.|1|
+|[address](https://schema.org/address)|[PostalAddress](https://schema.org/PostalAddress)|Physical address of the entity.|0..1|
+|[areaServed](https://schema.org/areaServed)|[Text](https://schema.org/Text)|The geographic area where a service or offered item is provided.|0..1|
 |maxDistance|[Number](https://schema.org/Number)|Maximum distance of the entities to be considered.|0..1|
 |refBasis|[Text](https://schema.org/Text)|If known, identifier the recommendation will be based on.|0..1|
 |type|[Text](https://schema.org/Text)|NGSI Entity type. It has to be TouristRecommendation|1|
